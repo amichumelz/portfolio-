@@ -64,7 +64,7 @@
           <div style="padding:40px 44px 56px">
             <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px">
               <h2 style="margin:0;font-weight:800;font-size:42px;letter-spacing:-1.5px">Selected Work</h2>
-              <span style="font:700 12px 'JetBrains Mono',monospace;color:#6a6c8c">[ 12 LIVE SITES ]</span>
+              <span style="font:700 12px 'JetBrains Mono',monospace;color:#6a6c8c">[ 13 LIVE SITES ]</span>
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
               <sc-for list="{{ projects }}" as="p" hint-placeholder-count="6">
@@ -163,7 +163,7 @@
         <div style="padding:56px 40px">
           <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px">
             <h2 style="margin:0;font-size:40px;letter-spacing:-2px;font-weight:700">Selected Work</h2>
-            <span style="font:700 12px 'Space Mono',monospace;color:#5a5a68">[ 12 LIVE SITES ]</span>
+            <span style="font:700 12px 'Space Mono',monospace;color:#5a5a68">[ 13 LIVE SITES ]</span>
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
             <sc-for list="{{ projects }}" as="p" hint-placeholder-count="6">
@@ -254,7 +254,7 @@
         <!-- projects -->
         <div style="padding:56px 44px">
           <h2 style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:46px;letter-spacing:-1.5px;margin:0 0 6px">Recent work ✦</h2>
-          <p style="margin:0 0 30px;color:#5a4650;font-size:16px">12 live sites, all designed & built by me.</p>
+          <p style="margin:0 0 30px;color:#5a4650;font-size:16px">13 live sites, all designed & built by me.</p>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
             <sc-for list="{{ projects }}" as="p" hint-placeholder-count="6">
               <a href="{{ p.url }}" target="_blank" style="text-decoration:none;display:block;background:#fff;border:2px solid #1c0f16;border-radius:20px;padding:24px 26px;box-shadow:6px 6px 0 #1c0f16;transition:.15s" style-hover="transform:translate(-3px,-3px);box-shadow:9px 9px 0 #1c0f16">
@@ -334,7 +334,7 @@
           <div style="padding:40px 44px 56px">
             <div style="text-align:center;margin-bottom:32px">
               <h2 style="font-weight:800;font-size:42px;letter-spacing:-1.5px;margin:0">Featured Projects</h2>
-              <p style="color:#a6a8c8;font-size:15px;margin:8px 0 0">12 live websites, built end-to-end</p>
+              <p style="color:#a6a8c8;font-size:15px;margin:8px 0 0">13 live websites, built end-to-end</p>
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
               <sc-for list="{{ projects }}" as="p" hint-placeholder-count="6">
@@ -410,6 +410,7 @@ class Component extends DCLogic {
       ["MyKaz Solutions", "mykazsolutions.com", "Business Solutions", "#a855f7"],
       ["HJH Global", "hjhglobal.com", "Car Rental", "#c6ff2e"],
       ["LangkawiScape", "langkawiscape.com", "Travel & Stays", "#ff2d78"],
+      ["Northern Episode", "northernepisodelangkawi.com", "Travel Agency", "#ffd23f"],
     ];
     const projects = raw.map((p, i) => ({
       name: p[0], domain: p[1], tag: p[2], color: p[3],
@@ -418,7 +419,7 @@ class Component extends DCLogic {
     }));
     const skills = ["HTML5", "CSS3", "JavaScript", "Responsive Design", "WordPress", "SEO", "UI Design", "Web Hosting", "Domain Setup"];
     const stats = [
-      { big: "12+", label: "Websites launched" },
+      { big: "13+", label: "Websites launched" },
       { big: "100%", label: "Mobile-first" },
       { big: "3+", label: "Years freelancing" },
     ];
